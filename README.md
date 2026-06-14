@@ -31,13 +31,13 @@ and it will automatically find `main.html` in the post's asset folder.
 Install from the base directory of your Hexo site:
 
 ```
-$ pnpm install hexo-include
+$ pnpm install hexo-include-local-file
 ```
 
 Or with npm:
 
 ```
-$ npm install hexo-include
+$ npm install hexo-include-local-file
 ```
 
 ## Requirements
