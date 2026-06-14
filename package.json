@@ -1,16 +1,16 @@
 {
-  "name": "hexo-include",
-  "version": "1.1.0",
+  "name": "hexo-include-file",
+  "version": "1.2.0",
   "description": "A Hexo plugin for including raw content of any text file into a post",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pirtleshell/hexo-include.git"
+    "url": "git+https://github.com/ZHider/hexo-include-file.git"
   },
   "author": {
-    "name": "Robert Pirtle",
-    "email": "astropirtle@gmail.com",
-    "url": "pirtle.xyz"
+    "name": "ZHider",
+    "email": "littlehider@gmail.com",
+    "url": "https://blog.ivandspc.top"
   },
   "main": "lib/index.js",
   "keywords": [
@@ -20,9 +20,9 @@
     "insert"
   ],
   "bugs": {
-    "url": "https://github.com/pipirt/hexo-include/issues"
+    "url": "https://github.com/ZHider/hexo-include-file/issues"
   },
-  "homepage": "https://github.com/pipirt/hexo-include#readme",
+  "homepage": "https://github.com/ZHider/hexo-include-file",
   "devDependencies": {
     "babel-register": "^6.16.3",
     "chai": "^3.5.0",
