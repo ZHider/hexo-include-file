@@ -1,6 +1,6 @@
 {
   "name": "hexo-include-local-file",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "A Hexo plugin for including raw content of any text file into a post",
   "license": "MIT",
   "repository": {

@@ -7,8 +7,10 @@ A [Hexo](https://github.com/hexojs/hexo) plugin for including the raw content of
 Insert the following into the post's markdown where you want the contents of the external file inserted:
 
 ```
-{% includeFile 'path/to/file.bar' %}
+{% includeFile 'path/to/file.bar' [true] %}
 ```
+- Path is relative to your source directory.
+- exclude: optional, true/false. If true, the included file will be removed from the generated output. Default: false.
 
 ### File Search Order
 
