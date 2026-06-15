@@ -24,20 +24,14 @@
   },
   "homepage": "https://github.com/ZHider/hexo-include-file",
   "devDependencies": {
-    "babel-register": "^6.16.3",
     "chai": "^3.5.0",
-    "eslint-config-hexo": "^1.0.3",
+    "eslint": "^9.39.4",
+    "eslint-config-hexo": "^6.0.0",
     "hexo": "^3.2.2",
     "hexo-fs": "^0.1.6",
-    "mocha": "^3.1.1",
-    "xo": "^0.17.0"
+    "mocha": "^3.1.1"
   },
   "scripts": {
-    "test": "xo && mocha test/test.js"
-  },
-  "xo": {
-    "extends": "hexo",
-    "root": true,
-    "globals": ["hexo"]
+    "test": "eslint lib test && mocha test/test.js"
   }
 }

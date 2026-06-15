@@ -1,0 +1,4 @@
+allowBuilds:
+  dtrace-provider: set this to true or false
+  es5-ext: set this to true or false
+  highlight.js: set this to true or false
