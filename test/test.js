@@ -1,5 +1,3 @@
-/* eslint-env node, mocha */
-
 'use strict';
 const pathFn = require('path');
 const should = require('chai').should();

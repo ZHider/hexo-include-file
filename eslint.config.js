@@ -26,5 +26,11 @@ module.exports = [
     rules: {
       'n/no-unpublished-require': 'off',
     },
+    languageOptions: {
+      globals: {
+        hexo: 'readonly',
+        mocha: 'readonly',
+      },
+    },
   },
 ];
